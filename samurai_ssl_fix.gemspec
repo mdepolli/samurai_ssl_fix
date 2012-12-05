@@ -1,0 +1,13 @@
+Gem::Specification.new do |s|
+  s.name        = 'samurai_ssl_fix'
+  s.version     = '0.1.0'
+  s.date        = '2012-12-05'
+  s.summary     = "Fixes Ruby 1.8.7 / OpenSSL 1.0.1 / Ubuntu 12.04 LTS / Samurai compatibility issue"
+  s.description = File.read('README.md')
+  s.authors     = ["Drew Blas"]
+  s.email       = 'drew.blas@gmail.com'
+  s.files       = ["lib/hola.rb"]
+  s.homepage    = 'http://rubygems.org/gems/samurai_ssl_fix'
+  s.add_dependency "activeresource", ">= 2.2.2"
+  s.add_dependency "activesupport", ">= 2.2.2"
+end
