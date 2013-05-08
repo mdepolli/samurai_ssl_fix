@@ -1,4 +1,4 @@
-Fixes Ruby 1.8.7 / OpenSSL 1.0.1 / Ubuntu 12.04 LTS / Samurai compatibility issue
+Fixes Ruby 1.9 / OpenSSL 1.0.1 / Ubuntu 12.04 LTS / Samurai compatibility issue
 
 This deadly combination of items produces the following error:
 
