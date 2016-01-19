@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob("{lib}/**/*") + %w(LICENSE README.md TESTING.md samurai_ssl_fix.gemspec)
   s.require_path = 'lib'
   s.homepage    = 'http://rubygems.org/gems/samurai_ssl_fix'
-  s.add_dependency "activeresource", ">= 2.2.2"
-  s.add_dependency "activesupport", ">= 2.2.2"
+
+  s.add_dependency "activeresource", "~> 4.0.0"
+  s.add_dependency "activesupport", "~> 4.0.13"
 end
